@@ -1,0 +1,10 @@
+.jumbotron
+  %h1.text-center 
+    About
+  %p.text-center Sesh is a WebRTC aimed at small to medium work groups. It is used to make direct video called in an instance.
+  %center.form-group
+    Enter your room name:
+    = text_field_tag "room[name]", nil, palceholder: "Enter your room name"
+    %br
+    %br
+    = link_to "Connect", "#", class: 'btn btn-success btn-large', role: 'button', id: "btn-room"

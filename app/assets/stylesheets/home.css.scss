@@ -1,0 +1,55 @@
+// Place all the styles related to the home controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+video {
+  width: 100%    !important;
+  height: auto   !important;
+}
+
+#localVideo {
+  z-index: 99;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  border-color: #F0F8FF;
+  border-radius: 50%;
+  border-style: solid;
+}
+
+#js-chat-body {
+  max-height: 255px;
+  overflow: auto;
+}
+
+/* footer */
+
+footer {
+  margin-top: 45px;
+  padding-top: 5px;
+  border-top: 1px solid #eaeaea;
+  color: #777;
+}
+
+footer a {
+  color: #555;
+}
+
+footer a:hover {
+  color: #222;
+}
+
+footer small {
+  float: left;
+}
+
+footer ul {
+  float: right;
+  list-style: none;
+}
+
+footer ul li {
+  float: left;
+  margin-left: 15px;
+}
+
